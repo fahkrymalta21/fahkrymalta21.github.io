@@ -28,6 +28,20 @@
     </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+    keduaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
 /* Inspiration */
 .inspiration{
     width: 80%;

@@ -92,6 +92,7 @@ nav .fa{
 }
 
 @media (max-width: 700px){
+
     .text-box h1{
         font-size: 20px;
     }
@@ -305,3 +306,33 @@ p{
     margin-left: 22%;
     margin-top: 5%;
 }
+.text-box img{
+    width: 500px;
+    margin-top: 2%;
+}
+/* -------------------------------------------- CULINARY --------------------------------- */
+
+.text-box1 h1{
+    text-align: center;
+}
+
+.text-box_culinary{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.text-box_culinary img{
+    flex-basis: 31%;
+    width: 200px;
+    height: 150px;
+    margin-top: 2%;
+    padding: 5px 12px;
+}
+
+.text-box_culinary h3{
+    margin-left: 20%;
+}
+
+

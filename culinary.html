@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>MEUSAFEER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Header-->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/Meusafeer.png" alt="Logo Pancacita"></a>
+            <div class="nav-links" id="navLinks">
+                <em class="fa fa-times" onclick="hideMenu()"></em>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Inspiration.html">INSPIRATION</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact_us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <em class="fa fa-bars" onclick="showMenu()"></em>
+        </nav>
+        
+        <div class="text-box1">
+            <h1>CULINARY</h1>
+            <div class="text-box_culinary">
+                <div>
+                    <img src="image/keumamah.jpg" alt="keumamah">
+                    <h3>Keumamah</h3>
+                    <p>Keumamah Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit. Aenean <br>
+                        condimentum, purus vitae laoreet <br>
+                        aliquet, magna quam fringilla nisi, <br>
+                        
+                    </p>
+                </div>
+                <div>
+                    <img src="image/kuah belangong aceh besar.jpg" alt="kuah belangong">
+                    <h3>Kuah Belangong</h3>
+                    <p> Kuah Belangong Lorem ipsum dolor <br>
+                        sit amet, consectetur adipiscing <br>
+                        elit. Aenean condimentum, purus <br>
+                        vitae laoreet aliquet, magna <br>
+                    </p>
+                </div>
+                <div>
+                    <img src="image/mie aceh.jpg" alt="mie aceh">
+                    <h3>Mie Aceh</h3>
+                    <p>Mie Aceh Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit. Aenean <br>
+                        condimentum, purus vitae laoreet <br>
+                        aliquet, magna quam fringilla nisi, <br>
+                    </p>
+                </div>
+                <div>
+                    <img src="image/sie reboh.jpg" alt="sie reboh">
+                    <h3>Sie Reboh</h3>
+                    <p>Sie Reboh Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit. Aenean <br>
+                        condimentum, purus vitae laoreet <br>
+                        aliquet, magna quam fringilla nisi, <br>
+                    </p>
+                </div>
+                <div>
+                    <img src="image/rujak aceh.jpg" alt="rujak aceh">
+                    <h3>Rujak Aceh</h3>
+                    <p>Rujak Aceh Lorem ipsum dolor sit amet, <br>
+                        consectetur adipiscing elit. Aenean <br>
+                        condimentum, purus vitae laoreet <br>
+                        aliquet, magna quam fringilla nisi, <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---JavaScript untuk logo menu dan close di mode hp-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
