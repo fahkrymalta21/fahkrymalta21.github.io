@@ -1,0 +1,93 @@
+    <!--Inspiration-->
+    <section class="inspiration">
+        <h1>WHAT'S YOUR INSPIRATION?</h1>
+        <p>Lorem Ipsum</p>
+
+        <div class="row-1">
+            <div>
+                <h1>CULINERY</h1>
+                <button class="inspiration-col">Read More</button>
+            </div>
+            <div>
+                <h1>CULTURE</h1>
+                <button class="inspiration-col">Read More</button>
+            </div>
+            <div>
+                <h1>SPIRITUAL</h1>
+                <button class="inspiration-col">Read More</button>
+            </div>
+            <div>
+                <h1>NATURE</h1>
+                <button class="inspiration-col">Read More</button>
+            </div>
+        </div>
+        <div class="row-2">
+            <h1>PACKAGE</h1>
+            <button class="inspiration-col-2">ORDER NOW</button>
+        </div>
+    </section>
+
+
+/* Inspiration */
+.inspiration{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row-1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-2{
+    margin-top: 5%;
+}
+
+.inspiration-col{
+    flex-basis: 31%;
+    font-size: medium;
+    background: rgba(75, 85, 20, 0.7);
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.inspiration-col-2{
+    flex-basis: 31%;
+    font-size: medium;
+    background: rgba(75, 85, 20, 0.7);
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 5px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.inspiration-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inspiration-col-2:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
