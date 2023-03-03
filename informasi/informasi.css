@@ -4,27 +4,7 @@
 }
 @font-face {
     font-family: "Poppins";
-    src: url('/Poppins/Poppins-Medium.ttf');}
-@font-face {
-    font-family: "Poppins1";
-    src: url('/Poppins/Poppins-Light.ttf');}
-            
-
-.wrapper {
-    display: flex;
-}
-.menu{
-    display: flex;
-    flex-direction: column;
-}
-.vector {
-    width: 100%;
-    height: 0px;
-    left: 143px;
-    top: 20px;
-    border: 4px solid #FFFFFF;
-    flex-grow: 2;
-}
+    src: url('../Poppins/Poppins-Light.ttf');}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -33,10 +13,8 @@ body {
 /* Header */
 
 .nav-container{
-    background: linear-gradient(146.87deg, #A34F10 31.02%, #C48E60 153.17%);
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    background:#C48E60;
 }
-
 .nav-bar {
     height: 90px;
 }
@@ -44,11 +22,18 @@ body {
 .logo {
     padding-left: 20px;
     padding-top: 10px;
+    width: 40%;
+    height: auto;
+    position: static;
+}
+.logo img{
+    width: 55px;
+
 }
 
 .wrapper {
     max-width: 1920px;
-    margin: 0 auto;
+    background:#A34F10;
 }
 
 nav {
@@ -60,7 +45,19 @@ nav {
 nav ul {
     display: flex;
 }
-
+a:link{text-decoration:none;}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
 .nav-items li {
     list-style: none;
     margin-right: 20px;
@@ -73,8 +70,8 @@ nav ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    font-weight:600;
 }
-
 .judul-artikel {
     /* width: 1263px; */
     min-height: 100%;
@@ -85,6 +82,7 @@ nav ul {
     font-size: 50px;
     color: #FFFFFF;
     margin-left: 100px;
+    line-height: 150px;
 }
 .blank-space{
     height: 30px;
@@ -135,7 +133,7 @@ p{
 
 .isi-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 10px;
 }
 
@@ -174,10 +172,9 @@ footer .media-sosial img {
     color: #111111;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    text-decoration-line: underline;
 }
 
 .dropdown {
