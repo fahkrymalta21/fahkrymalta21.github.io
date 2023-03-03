@@ -1,224 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>My Portfolio</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">My PortFolio</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Coursework</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="nav-container">
+        <div class="nav-bar">
+            <div class="wrapper">
+                <nav>
+                    <div class="logo">
+                        <a href="./index.html"><img src="./images/logo-uka.png" alt="logo-uka"></a>
+        
+                    </div>
+                    <div class="menu">
+                    <ul class="nav-items">
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Tentang Kami</button>
+                                <div class="dropdown-content">
+                                    <a href="./profil_uka/index.html">Profil UKA-ITB</a>
+                                    <a href="./sejarah_uka/index.html">SEJARAH UKA-ITB</a>
+                                    <a href="./bp_uka/index.html">PROFIL BP UKA-ITB</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="./aktivitas/aktivitas.html">Aktivitas</a>
+                        </li>
+                        <li>
+                            <a href="./blog/blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="./informasi/informasi.html">Informasi</a>
+                        </li>
+                        <li>
+                            <a href="#">Apresiasi</a>
+                        </li>
+                        <li>
+                            <a class="search-btn" href="#">
+                                <img src="./images/search-button.svg" alt="search-button">
+                            </a>
+                            <h>
+                            <!-- <img src="../images/Vector_1.svg" alt="" class="vector"> -->
+                        </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">My Portfolio</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Here you will find many things about me and will get to know me better</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">About Me!</h2>
-                        <hr class="divider divider-light" />
-                        <img src="./assets/img/foto_profil.jpg" alt="Foto Profil" height="317" width="330">
-                        <hr>
-                        <p class="text-white-75 mb-4">Hello, my name is Muhammad Fahkry Malta <br> I am 20 years old and I born and live in Lhokseumawe, Aceh <br> I have just finished my third year majoring in Informatics at the Institut Teknologi Bandung (ITB)</p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">My Coursework</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><img src="./assets/img/web_dev_logo.png" alt="" height="80" width="80"></div>
-                            <h3 class="h4 mb-2">Web Development</h3>
-                            <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><img src="./assets/img/android_dev_logo.png" alt="" height="80" width="80"></div>
-                            <h3 class="h4 mb-2">Android Development</h3>
-                            <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><img src="./assets/img/data_science_logo.png" alt="" height="80" width="80"></div>
-                            <h3 class="h4 mb-2">Data Science</h3>
-                            <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><img src="./assets/img/AI_logo.png" alt="" height="80" width="120"></div>
-                            <h3 class="h4 mb-2">Artificial Intelligence</h3>
-                            <!-- <p class="text-muted mb-0">Is it really open source if it's not made with love?</p> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <h2 class="text-center mt-0">My Projects</h2>
-                <hr class="divider" />
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/wbd_ss.png" title="Project Name">
-                            <img class="img-fluid2" src="assets/img/portfolio/thumbnails/wbd_ss.png" width="420" height="290" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Web Development</div>
-                                <div class="project-name">Dorayakidz</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/perluDilindungi_ss.png" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/perluDilindungi_2_ss.JPG" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Android Development</div>
-                                <div class="project-name">PerluDilindungi</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/meusafeer_ss.JPG" title="Project Name">
-                            <img class="img-fluid2" src="assets/img/portfolio/thumbnails/meusafeer_ss.JPG" width="420" height="290" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Web Development</div>
-                                <div class="project-name">Meusafeer</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/unity_ss.png" title="Project Name">
-                            <img class="img-fluid2" src="assets/img/portfolio/thumbnails/unity_ss.png" width="420" height="290" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Game Development</div>
-                                <div class="project-name">Survival Shooter</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/nisbi_ss.png" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/nisbi_2_ss.JPG" height="100" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Android Development</div>
-                                <div class="project-name">Nisbi.ID</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/machine_learning_2_ss.JPG" title="Project Name">
-                            <img class="img-fluid2" src="assets/img/portfolio/thumbnails/machine_learning_2_ss.JPG" width="420" height="290" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Artificial Intelligence</div>
-                                <div class="project-name">Project using SKLearn</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                   </div>
+                </nav>
+                
             </div>
         </div>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Contact Me</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2">
-                                <a href="https://github.com/fahkrymalta21"><img src="./assets/img/github.svg" alt="" height="80" width="80"></a>
-                            </div>
-                            <h3 class="h4 mb-2">Github</h3>
-                            <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2">
-                                <a href="mailto:muhammadfahkry@gmail.com"><img src="./assets/img/gmail.png" alt="" height="80" width="80"></a>
-                            </div>
-                            <h3 class="h4 mb-2">Gmail</h3>
-                            <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2">
-                                <a href="https://wa.me/628112446265"><img src="./assets/img/whatsapp.png" alt="" height="80" width="80"></a>
-                            </div>
-                            <h3 class="h4 mb-2">Whatsapp</h3>
-                            <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2">
-                                <a href="https://www.instagram.com/fahkrymalta21/"><img src="./assets/img/instagram.png" alt="" height="80" width="80"></a>
-                            </div>
-                            <h3 class="h4 mb-2">Instagram</h3>
-                            <!-- <p class="text-muted mb-0">Is it really open source if it's not made with love?</p> -->
-                        </div>
-                    </div>
-                </div>
+    </div>
+    <div class = "opening">
+        <div class="box-opening">
+            <h1>Unit Kebudayaan Aceh ITB</h1>
+            <p>Sebuah unit kegiatan mahasiswa di ITB yang berfokus pada seni tari dan kebudayaan Aceh</p>
+            <br><a href="./profil_uka/index.html"><button class="btn">MORE</button></a>
+        </div>
+    </div>
+    <div class="isi">
+        <h2>Artikel Terbaru!</h2>
+        <div class="artikel">
+            <div class="isi_artikel">
+                <img src="./images/home/Rectangle 50.png">
+                <h3>KEGIATAN TAHUNAN UKA</h3>
+                <P>Unit Kebudayaan Aceh memiliki banyak kegiatan yang diadakan rutin setiap tahunnya...</P>
             </div>
-        </section>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+            <div class="isi_artikel">
+                <img src="./images/home/Rectangle 50-1.png">
+                <h3>KEGIATAN TARIAN UKA</h3>
+                <P>UKA memiliki banyak kegiatan tarian yang berasal dari Aceh. Tarian - tarian tersebut biasanya ditampilkan...</P>
+            </div>
+            <div class="isi_artikel">
+                <img src="./images/home/Rectangle 50-2.png">
+                <h3>MASJID RAYA BAITURRAHMAN</h3>
+                <P>Masjid Raya Baiturrahman adalah sebuah masjid yang terletak di pusat kota Banda Aceh, Provinsi Aceh, Indonesia...</P>
+            </div>
+            <div class="isi_artikel">;
+                <img src="./images/home/Rectangle 50-3.png">
+                <h3>MIE ACEH</h3>
+                <p>Mie aceh adalah masakan mie pedas khas Aceh di Indonesia. Mie kuning tebal dengan irisan daging...</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Ikuti Kami</h3>
+        <div class="media-sosial">
+            <img src="./images/Youtube.svg" alt="">
+            <img src="./images/Instagram.svg" alt="">
+            <img src="./images/Line.svg" alt="">
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
 </html>
