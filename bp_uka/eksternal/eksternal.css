@@ -52,11 +52,23 @@ nav ul {
     color: #111111;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
 }
-
+a:link{text-decoration:none;}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
 .judul::after {
     content: "";
     background-color: #FFFFFF;
@@ -221,10 +233,9 @@ nav ul {
     color: #111111;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    text-decoration-line: underline;
+    font-weight:600;
 }
 
 .dropdown {
@@ -238,7 +249,17 @@ nav ul {
     background-color: #C48E60;
     z-index: 1;
 }
-
+.dropdown-content::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    transition: 0.5s;
+}
+.dropdown-content::after{
+    width: 100%;
+}
 .dropdown-content a {
     /* color: black; */
     padding: 12px 16px;

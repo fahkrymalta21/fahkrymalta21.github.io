@@ -47,7 +47,7 @@ nav ul {
     color: #111111;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
 }
@@ -248,10 +248,9 @@ nav ul {
     color: #111111;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    text-decoration-line: underline;
 }
 
 .dropdown {
@@ -279,6 +278,16 @@ nav ul {
     text-size-adjust: 10px; */
     /* line-height: 24px; */
 }
-
+.dropdown-content::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f0b988;
+    display: block;
+    transition: 0.5s;
+}
+.dropdown-content::after{
+    width: 100%;
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
